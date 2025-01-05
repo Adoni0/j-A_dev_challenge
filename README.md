@@ -27,13 +27,6 @@ This is a Vite-powered React project designed to demonstrate efficient and moder
     Open the browser and navigate to:
     http://localhost:3000
 
-
-## Why I use Vite?
-- **Faster Development**: Faster spin up of the development server and faster build times
-- **Modern Tooling**: Leverages ES modules for better performance and a leaner setup.
-- **Better Bundle Splitting**: Efficiently handles large applications by splitting code into smaller bundles.
-- **Lightweight Configuration**: Easier to configure compared to alternatives.
-
 ## Assumptions
 During the development of this project, the following assumptions were made:
 
