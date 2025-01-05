@@ -65,7 +65,8 @@ class ArticleCard extends LitElement {
       font-size: 1.5rem;
       background: rgba(0, 0, 0, 0.5);
       border-radius: 50%;
-      transition: color 0.3s ease, background 0.3s ease;
+      border: 2px solid transparent;
+      transition: color 0.3s ease, background 0.3s ease, border-color 0.3s ease;
     }
 
     .content {
@@ -80,6 +81,10 @@ class ArticleCard extends LitElement {
 
     .unchecked {
       color: white;
+    }
+
+    .icon:hover {
+      border-color: #64ddb5;
     }
   `;
 
