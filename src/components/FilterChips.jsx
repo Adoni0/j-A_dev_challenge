@@ -16,6 +16,7 @@ class FilterChips extends LitElement {
       background-color: white;
       color: #3b5872;
       transition: background-color 0.3s, color 0.3s;
+      font-size: 16px;
     }
     .chip:hover {
       background-color: #cbe5fe;

@@ -25,7 +25,7 @@ body {
 }
 
 .show-more:hover {
-  font-size: 18px;
+  color: green;
 }
 
 .app-container {
@@ -39,5 +39,5 @@ body {
 }
 
 .header-icon:hover {
-  font-size: 1.7rem;
+  color: green;
 }

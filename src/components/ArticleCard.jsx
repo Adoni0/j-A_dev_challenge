@@ -9,8 +9,8 @@ class ArticleCard extends LitElement {
     .card {
       position: relative;
       border-radius: 12px;
-      width: 400px;
-      height: 200px;
+      width: 380px;
+      height: 180px;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -22,6 +22,10 @@ class ArticleCard extends LitElement {
       padding: 1rem;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       background-color: #000; /* Fallback in case image is missing */
+    }
+
+    .card:hover {
+      cursor: pointer
     }
 
     .category-info {
